@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "ADLaM Display", cursive;
+}
+
+.header-section {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1618828665011-0abd973f7bb8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFnb3N8ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+  background-size: cover; /* Optional: Control how the image is sized within the container */
+  background-position: center;
+  background-repeat: no-repeat; /* Optional: Prevent the image from repeating */
+  color: white;
+}
+
+.sub-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  background-color: #0077b6;
+  border-radius: 3px;
+  padding: 8px 16px;
+  text-shadow: 0 0 3px black;
+}
+
+.sub-title {
+  margin-top: 10px;
+  background-color: #16425b;
+  border-radius: 3px;
+  text-align: center;
+  padding: 8px 16px;
+  text-shadow: 0 0 3px black;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.hero-section {
+  background-color: #dde5b6;
+  height: 50vh;
+  text-align: center;
+  padding-top: 20px;
+  color: #0077b6;
+  width: 100%;
+}
+
+.sub-hero > img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.sub-hero {
+  color: #0077b6;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+.hero-body {
+  width: 300px;
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+.guide-section {
+  width: 500px;
+  margin: 50px auto;
+  background-color: #45b3ef;
+  color: gainsboro;
+  display: flex;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.guide-section > img {
+  width: 230px;
+  height: 200px;
+  margin: 25px 0 0 5px;
+}
+
+.sub-guide {
+  margin: 50px 10px;
+}
+
+.sub-guide p {
+  margin-top: 30px;
+  line-height: 25px;
+}
+
+.items {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .items {
+    display: block;
+  }
+  .hero-section {
+    height: 800px;
+  }
+  .sub-hero {
+    margin: 40px 0;
+  }
+  .guide-section {
+    width: 460px;
+  }
+}
